@@ -1,4 +1,3 @@
-drop table combo_emp_dept
 --1. List the employee number, last name, first name, sex, and salary of each employee.
 select salaries.emp_no, employees.last_name, employees.first_name, employees.sex, salaries.salary
 from employees
